@@ -1,12 +1,10 @@
 #1.3 Use error messages to help you learn.
 #Run the following code:
 
-x = 5
-y = 1
-while y > 0.0000000001:
-    y = 0.1 * y
-    z = x / y
-    print("y = ", y, "  z = ", z)
+x = 2
+while x < 10000:
+    x = x * 10
+    print("x = ", x)
 
 #time = 30
 #This is a while loop.  It repeats the indented portion while the condition is met.

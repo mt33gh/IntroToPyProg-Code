@@ -4,12 +4,12 @@
 #  - you can't add and remove items from tuples, or sort them in place.
 # Run the following code:
 
-location = (36.2048, 138.2529) # tuple
+location = (36, 138) # tuple
 print("Latitude:", location[0])
 print("Longitude:", location[1])
 #location.append(250)  #causes an error
 
-a = [36.2048, 138.2529]   # list
+a = [36, 138]   # list
 a.append(250)             # append() is a method
 print(a)
 

@@ -3,6 +3,7 @@
 # Run the following code:
 
 n = 4   # n = 0 to 4
+n = int(input("Enter a number from 0 to 4:"))
 seasons = ["spring", "summer", "fall", "winter", "?"]
 season = seasons[n]
 

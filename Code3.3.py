@@ -15,6 +15,6 @@ print(c)
 c.remove('United States')
 print(c)
 
-print(c[0])  # error
+#print(c[0])  # error
 
 #time = 70

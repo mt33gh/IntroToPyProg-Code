@@ -2,10 +2,12 @@
 #Run the following code:
 
 x = 5
-if x * 4 > 20:
-    print("x*4 is larger than 20.")
+x = input("Enter an integer:")
+x = int(x)
+if x + 4 > 20:
+    print("x+4は、20より大きい")
 else:
-    print("x*4 is not larger than 20.")
+    print("x+4は、20または20より小さい")
 
 # Now, delete the indentation before "print()".  What happens?
 

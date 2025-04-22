@@ -18,6 +18,7 @@ print(sum(hand))
 while sum(hand)  < 35:
     hand.append(card_deck.pop())   # pop() removes the last item, and returns it
     print(sum(hand))
+print(card_deck)
 print(hand)
 """
 #time = 70

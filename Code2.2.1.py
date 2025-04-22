@@ -16,7 +16,7 @@ d = 50 / 6
 e = 50 % 6
 f = 2 ** 4
 g = 50 // 6
-print(a, b, c, d, e, f, g)
+print(f"a = {a}\nb = {b}\nc = {c}\nd = {d}\ne = {e}\nf = {f}\ng = {g}\n")
 
 #time = 40
 # This code demonstrates arithmetic operators.
